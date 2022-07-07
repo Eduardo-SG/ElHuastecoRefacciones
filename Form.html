@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="zxx" class="no-js">
+
+<head>
+	<!-- Mobile Specific Meta -->
+	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+	<!-- Favicon-->
+	<link rel="shortcut icon" href="img/PLogo.png">
+	<!-- Author Meta -->
+	<meta name="author" content="CodePixar">
+	<!-- Meta Description -->
+	<meta name="description" content="">
+	<!-- Meta Keyword -->
+	<meta name="keywords" content="">
+	<!-- meta character set -->
+	<meta charset="UTF-8">
+	<!-- Site Title -->
+	<title>Añadir Producto</title>
+
+	<!--
+            CSS
+            ============================================= -->
+	<link rel="stylesheet" href="css/linearicons.css">
+	<link rel="stylesheet" href="css/owl.carousel.css">
+	<link rel="stylesheet" href="css/themify-icons.css">
+	<link rel="stylesheet" href="css/font-awesome.min.css">
+	<link rel="stylesheet" href="css/nice-select.css">
+	<link rel="stylesheet" href="css/nouislider.min.css">
+	<link rel="stylesheet" href="css/bootstrap.css">
+	<link rel="stylesheet" href="css/main.css">
+
+</head>
+<body>
+<!--================Form Area =================-->
+	<section class="contact_area section_gap_bottom">
+		<div class="container">
+			<div class="row">
+				<div class="col-lg-3">
+					<div class="contact_info">
+						<div class="info_item">
+							<h3>Añadir un producto: </h3>
+						</div>
+					</div>
+				</div>
+				<div class="col-lg-9">
+					<form class="row contact_form" action="contact_process.php" method="post" id="contactForm" novalidate="novalidate">
+						<div class="col-md-6 ">
+							<div class="form-group">
+								<h6>Producto: </h6>
+								<input type="text" class="form-control" id="name" name="txtCategoria" placeholder="Categoría del producto" onfocus="this.placeholder = ''" onblur="this.placeholder = 'Categoría del producto'">
+							</div>
+							
+							<div class="form-group">
+								<h6>Descripción</h6>
+								<textarea class="form-control" name="txtDescripcion" id="message" rows="1" placeholder="Descripción del producto" onfocus="this.placeholder = ''" onblur="this.placeholder = 'Descripción del producto'"></textarea>
+							</div>
+							
+						</div>
+						<div class="col-md-6">
+							<div class="form-group">
+								<h6>Número de serie: </h6>
+								<input type="text" class="form-control" id="email" name="email" placeholder="Número de serie" onfocus="this.placeholder = ''" onblur="this.placeholder = 'Número de serie'">
+							</div>
+							<div class="form-group">
+								<h6>Agregar Imagen: </h6>
+								<input type="file" class="form-control" id="subject" name="subject" placeholder="Image" onfocus="this.placeholder = ''" onblur="this.placeholder = 'Image'">
+							</div>
+							<div class="form-group">
+								<h6>Precio: </h6>
+								<input type="number" class="form-control" id="name" name="name" placeholder="Precio" onfocus="this.placeholder = ''" onblur="this.placeholder = 'Precio'">
+							</div>
+						</div>
+						<div class="col-md-12 text-right">
+							<button type="submit" value="submit" class="primary-btn">Añadir producto</button>
+						</div>
+					</form>
+				</div>
+			</div>
+		</div>
+	</section>
+	<!--================Form Area =================-->
+</body>
+</html>
